@@ -1,0 +1,11 @@
+.location-bar {
+    display: flex;
+    height: 92px;
+    line-height: 92px;    
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.location-bar span {
+    margin: 0 30px;
+}

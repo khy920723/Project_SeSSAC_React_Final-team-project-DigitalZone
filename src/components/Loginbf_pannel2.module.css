@@ -1,0 +1,134 @@
+.loginbf_pannel2 {
+  width: fit-content;
+  min-height: calc(100vh - 221px);
+  margin: 30px auto 108px auto;
+}
+
+.loginbf_pannel2 .pannelText {
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+  padding: 60px 0 44px;
+  color: #0c2461;
+}
+
+.loginbf_pannel2 .pannelDes {
+  text-align: center;
+  display: block;
+  margin-bottom: 46px;
+  color: #333;
+  font-size: 17px;
+  line-height: 1.47;
+}
+
+.loginbf_pannel2 .row {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.loginbf_pannel2 .row .label {
+  display: block;
+  width: 150px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.loginbf_pannel2 .col .input {
+  width: 359px;
+  height: 40px;
+  font-size: 17px;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  padding-top: 11px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+}
+
+.loginbf_pannel2 .col .phoneBox {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+.loginbf_pannel2 .col .hipen {
+  display: inline-block;
+  justify-items: center;
+  margin-left: 9px;
+  margin-right: 11px;
+  margin-bottom: 5px;
+  width: 10px;
+  height: 1px;
+  background-color: #b1b1b1;
+}
+.loginbf_pannel2 .col .codeBox {
+  text-align: center;
+}
+.loginbf_pannel2 .col .codeBox::-webkit-outer-spin-button,
+.loginbf_pannel2 .col .codeBox::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+.loginbf_pannel2 .codeRow .col .input{
+  -webkit-text-security: disc;
+}
+
+/* phoneRow & codeRow */
+.loginbf_pannel2 .phoneRow input::-webkit-outer-spin-button,
+.loginbf_pannel2 .phoneRow input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+.loginbf_pannel2 .phoneRow .btn:hover,
+.loginbf_pannel2 .codeRow .btn:hover {
+  background-color: #fff;
+  color: #ffc107;
+  border: 1.5px solid #ffc107;
+}
+
+/* btnContainer */
+.loginbf_pannel2 .btnContainer {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.loginbf_pannel2 .btnContainer .btn:first-child {
+  background-color: #333;
+  color: #fff;
+}
+.loginbf_pannel2 .btnContainer .btn:first-child:hover{
+  background-color: #fff;
+  border: 1.5px solid #333;
+  color: #333;
+}
+.loginbf_pannel2 .btnContainer .btn:last-child {
+  background-color: #fff;
+  border: 1.5px solid #333;
+  color: #333;
+}
+.loginbf_pannel2 .btnContainer .btn:last-child:hover{
+  background-color: #333;
+  color: #fff;
+}
+
+.loginbf_pannel2 .btn {
+  width: 130px;
+  height: 38px;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+.loginbf_pannel2 .button {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.loginbf_pannel2 .btnPrimary {
+  width: 170px;
+}

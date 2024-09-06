@@ -1,0 +1,150 @@
+.logined_home {
+  width: fit-content;
+  min-height: calc(100vh - 221px);
+  margin: 68px auto 147px auto;
+}
+
+/* container */
+.logined_home .container {
+  width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* describe */
+.logined_home .describe {
+  background-color: #ff7a3d;
+  height: 68px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 70px 0 95px;
+}
+.logined_home .describe .title {
+  margin-right: 5px;
+}
+.logined_home .describe .case {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logined_home .describe .surveyWill .img,
+.logined_home .describe .surveyEd .img {
+  margin-right: 19px;
+}
+.logined_home .describe .surveyIng .img {
+  margin-right: 31px;
+}
+
+/* survey-box */
+.logined_home .surveyBox {
+  margin-top: 61px;
+  width: 100%;
+}
+
+/* survey-box radio-box */
+.logined_home .radioBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.logined_home .radioBox .input {
+  margin-right: 6px;
+  cursor: pointer;
+}
+.logined_home .radioBox .label {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logined_home .radioBox .checkWill,
+.logined_home .radioBox .checkIng {
+  margin-right: 40px;
+}
+
+/* survey-box table-box */
+.logined_home .tableBox {
+  margin-top: 24px;
+}
+.logined_home .tableBox .table {
+  width: 100%;
+  border-bottom: 1px solid #b1b1b1;
+  /* border-bottom: 1px solid #333; */
+  border-collapse: collapse;
+  /* word-break: break-all; */
+  /* table-layout: fixed; */
+}
+.logined_home .tableBox .thead {
+  height: 45px;
+  background-color: #525c68;
+  color: #fff;
+  font-size: 17px;
+}
+.logined_home .tableBox .th {
+  border-right: 1px solid #fff;
+  padding: 13px 0 15px 0;
+}
+.logined_home .tableBox .table .state {
+  width: 130px;
+}
+.logined_home .tableBox .th:last-child {
+  border-right: none;
+}
+.logined_home .tableBox .tbody .tr {
+  border-bottom: 1px solid #b1b1b1;
+}
+.logined_home .tableBox .tbody .td {
+  padding: 23px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+}
+.logined_home .tableBox .tbody .tr td:nth-child(2) a:hover{
+  color: red;
+  cursor: pointer;
+}
+.logined_home .tableBox .tbody .state .span {
+  border: 1px solid #f0932b;
+  border-radius: 5px;
+  color: #f0932b;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 9px;
+}
+
+/* qnaBox의 pagination */
+/* controllerBox */
+.logined_home .controllerBox {
+  margin: 20px auto;
+  line-height: 20px;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.logined_home .controllerBox .a {
+  display: block;
+  margin-right: 10px;
+}
+.logined_home .controllerBox a:hover{
+  color: #ff7a3d;
+}
+.logined_home .controllerBox .btn {
+  width: 20px;
+  height: 20px;
+  background-color: #ffc107;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+}
+.logined_home .controllerBox .btn:hover{
+  background-color: #fff;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}

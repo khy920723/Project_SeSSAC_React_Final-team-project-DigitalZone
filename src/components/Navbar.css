@@ -1,0 +1,177 @@
+.navbar {
+  background: #fff;
+/*   background: linear-gradient(
+    58deg,
+    rgba(234, 87, 3, 1) 35%,
+    rgba(241, 192, 65, 1) 100%
+  ); */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 1200px;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 15px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-link-img {
+  width: 40px;
+  height: fit-content;
+}
+
+/* .nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+  }
+   */
+  
+  .nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.3s ease-out;
+    box-sizing: border-box;
+  }
+.fa-bars {
+  color: #333;
+}
+
+.nav-links-mobile {
+    display: none;
+  }
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #242424;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding: none;
+  }
+
+  .nav-links {
+ 
+    border: 1px solid blue;
+  }
+  .nav-item {
+    display: block;
+   /*  height: 50px; */
+    text-align: center;
+    width: 100vw; /* 100%였을때 패딩생김;왜그래 */
+    line-height: 90px;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    transition: all 0.4s ease-out;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 40px;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #333;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+
+  }
+
+  .btn {
+    display: block;
+    text-align: center;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 20px;
+    transition: all 0.4s ease-out;
+  }
+
+/*   .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  } */
+  /* .btn-mobile {
+      display: none;
+  } *//* 작은화면으로 마운팅때 navbar login btn 해제, useEffect로 대체함 */
+}

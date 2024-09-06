@@ -1,0 +1,63 @@
+/* ** 연속숫자에 스타일을 추가 **
+.container {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .information1 ul {
+    counter-reset: circle 0;
+  }
+  
+  .information1 li,
+  .information2 li {
+    position: relative;
+    list-style: none;
+    margin: 20px;
+  }
+  
+  .information1 li::before,
+  .information2 li::before {
+    position: absolute;
+    top: 50%;
+    left: 0.4em;
+    transform: translateY(-50%);
+    counter-increment: circle 1;
+    content: counter(circle);
+    font-size: 0.8em;
+  }
+  
+  .information1 li::after,
+  .information2 li::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+  }
+  
+  .information1 li > span,
+  .information2 li > span {
+    padding-left: 30px;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .information1,
+  .information2 {
+    padding: 20px;
+  }
+  
+  .information1 h2,
+  .information2 h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+  }
+   */

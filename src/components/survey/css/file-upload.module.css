@@ -1,0 +1,94 @@
+/* 상단 */
+.fileUploadbox {
+  width: 880px;
+  margin: auto;
+  border: 2px solid #333;
+}
+.titlebox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+}
+.titletext {
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 18px 0;
+  color: #fff;
+}
+.titletext span{
+  color:#fff;
+}
+.xbox {
+  position: relative;
+  right: 10px;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 30px;
+}
+.xbox a {
+  margin-right: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+/* 컨텐츠 */
+.contentsbox {
+  width: 100%;
+  margin: 14px auto;
+  display: flex;
+  flex-direction: column;
+}
+.filebox {
+  margin: 14px 0;
+  display: flex;
+}
+.filebox span {
+  align-self: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  margin: 0 20px;
+  text-align: center;
+  width:100px;
+  color:#333;
+}
+.uploadBtn{
+  font-size: 18px;
+  background-color: #fff;
+  width: 600px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+::-webkit-file-upload-button{
+  color:#fff;
+  background: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+/* 버튼 */
+.btnArea {
+  margin-bottom: 17px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.submitBtn {
+  background-color: #ffc107;
+  border: none;
+  box-shadow: none;
+  padding: 9px 26px;
+  overflow: visible;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 9px;
+}
+.submitBtn span{
+  color:#fff;
+}

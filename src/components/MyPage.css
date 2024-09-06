@@ -1,0 +1,90 @@
+
+
+.acc-tab {
+    border-bottom: 1px solid #b1b1b1;
+    display: flex;
+}
+
+.mypage .tab-item {
+    width: 235px;
+    height: 68px;
+    line-height: 68px;
+    font-size: 22px;
+    text-align: center;
+    
+    border-radius: 10px 10px 0 0;
+}
+
+.mypage .tab-item.current a {
+    display: block;
+    background-color: #fff;
+    border-radius: inherit;
+    border: 1px solid #b1b1b1;
+    border-bottom: transparent;
+}
+
+.mypage .form-content {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mypage .row {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+
+.mypage .row label {
+    font-size: 18px;
+    width: 150px;
+}
+
+.mypage .row input {
+    width: 381px;
+    padding-left: 16px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #b1b1b1;
+    border-radius: 9px;
+}
+
+.mypage .row input.plaintext {
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+}
+
+.mypage .alert {
+    padding-left: 19px;
+    color: #ffc107;
+}
+
+.mypage .alert i {
+    padding-right: 7px;
+}
+.mypage form {
+    display: flex;
+    flex-direction: column;
+}
+.mypage form > Button {
+    align-self: flex-end;
+    font-size: 22px !important;
+}
+
+.mypage .content .userID > Button {
+    margin-left: 23px;
+}
+
+.mypage .content .mobile > span {
+    margin: 0 12px;
+}
+
+.super-generate .content .mobile > input,
+.super-manage .content .mobile > input {
+    width: 107px;
+}
+
+

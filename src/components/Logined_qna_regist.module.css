@@ -1,0 +1,104 @@
+.logined_qna_regist {
+  width: fit-content;
+  min-height: calc(100vh - 221px);
+  margin: 69px auto 159px auto;
+}
+
+/* container */
+.logined_qna_regist .container {
+  width: 1000px;
+  margin: auto;
+}
+
+/* pannel-category */
+.logined_qna_regist .pannelCategory {
+  margin-bottom: 111px;
+}
+.logined_qna_regist .pannelCategory .pannelTitle {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+.logined_qna_regist .pannelCategory .pannelTitle span {
+  margin: 0 21px 0 21px;
+}
+
+/* describe */
+.logined_qna_regist .describe {
+  text-align: center;
+  margin-bottom: 82px;
+}
+.logined_qna_regist .describe img {
+  width: 179px;
+  height: 184px;
+  margin-bottom: 27px;
+}
+.logined_qna_regist .describe p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* contents */
+.logined_qna_regist .contents {
+  width: 600px;
+  margin: auto;
+}
+.logined_qna_regist .contents label {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+.logined_qna_regist .contents .titleInput {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.logined_qna_regist .contents .titleInput input {
+  width: 375px;
+  height: 40px;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  padding: 10px;
+}
+.logined_qna_regist .contents .contentInput {
+  display: flex;
+  justify-content: space-between;
+}
+.logined_qna_regist .contents .contentInput textarea {
+  width: 375px;
+  height: 188px;
+  resize: none;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  padding: 10px;
+}
+.logined_qna_regist .contents .contentInput textarea::placeholder {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #999;
+}
+
+/* regist-cancle-btn */
+.logined_qna_regist .registCancleBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.logined_qna_regist .registCancleBtn .btn {
+  border: none;
+  cursor: pointer;
+  background-color: #ffc107;
+  width: 140px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.logined_qna_regist .registCancleBtn .btn:hover {
+  background-color: #fff;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+.logined_qna_regist .registCancleBtn .regist {
+  margin-right: 20px;
+}

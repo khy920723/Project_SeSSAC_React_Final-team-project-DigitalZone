@@ -1,0 +1,153 @@
+.logined_qna_board {
+  width: fit-content;
+  min-height: calc(100vh - 221px);
+  margin: 63px auto 108px auto;
+}
+
+.logined_qna_board .pannelText {
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+color: #0c2461;
+margin-bottom: 59px;
+}
+
+/* qna 전체 박스 (qna-box) */
+.logined_qna_board .qnaBox {
+width: 1000px;
+margin: auto;
+margin-bottom: 50px;
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+/* qna-box의 regist-search */
+.logined_qna_board .registSearch {
+margin-bottom: 20px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logined_qna_board .registSearch .registBox {
+justify-content: flex-start;
+}
+.logined_qna_board .registSearch .searchBox {
+justify-content: flex-end;
+}
+
+/* regist 버튼 */
+.logined_qna_board .regist {
+width: 162px;
+height: 52px;
+font-size: 18px;
+font-weight: bold;
+color: #333;
+background-color: #ffc107;
+border: none;
+font-weight: bold;
+cursor: pointer;
+}
+.logined_qna_board .regist:hover{
+background-color: #fff;
+color: #ffc107;
+border: 1px solid #ffc107;
+}
+
+/* search 바 */
+.logined_qna_board .searchBox {
+width: 190px;
+height: 35px;
+border: 1px solid #afafaf;
+border-radius: 50px;
+display: flex;
+padding: 5px;
+}
+.logined_qna_board .searchBox .formControl {
+border: none;
+outline: none;
+background-color: transparent;
+width: 100%;
+}
+.logined_qna_board .searchBox .btn {
+border: none;
+cursor: pointer;
+background-color: transparent;
+padding-right: 5px;
+padding-left: 5px;
+}
+.logined_qna_board .searchBox .btn .img{
+width: 20px;
+height: 20px;
+}
+
+/* qna-box의 table */
+.logined_qna_board .table {
+width: auto;
+border-top: 1px solid #444444;
+border-bottom: 1px solid #444444;
+border-collapse: collapse;
+overflow-y: scroll;
+}
+.logined_qna_board .th {
+border-bottom: 1px solid #444444;
+}
+.logined_qna_board .th,
+.logined_qna_board .td {
+border-left: 1px solid #444444;
+padding: 10px;
+text-align: center;
+}
+.logined_qna_board .th:first-child,
+.logined_qna_board .td:first-child {
+border-left: none;
+}
+.logined_qna_board .tbody .tr .td:nth-child(2) .a:hover{
+color: red;
+}
+.logined_qna_board .table .number {
+width: 50px;
+}
+.logined_qna_board .table .title {
+width: 400px;
+}
+.logined_qna_board .table .registDate {
+width: 80px;
+}
+.logined_qna_board .table .register {
+width: 80px;
+}
+
+/* qnaBox의 pagination */
+/* controllerBox */
+.logined_qna_board .controllerBox {
+margin: 20px auto;
+line-height: 20px;
+padding: 10px;
+width: 200px;
+display: flex;
+justify-content: space-between;
+}
+.logined_qna_board .controllerBox .a {
+display: block;
+margin-right: 10px;
+}
+.logined_qna_board .controllerBox .a:hover{
+color: #ff7a3d;
+}
+.logined_qna_board .controllerBox .btn {
+width: 20px;
+height: 20px;
+background-color: #ffc107;
+color: #fff;
+text-align: center;
+line-height: 20px;
+font-size: 16px;
+}
+.logined_qna_board .controllerBox .btn:hover{
+background-color: #fff;
+color: #ffc107;
+border: 1px solid #ffc107;
+}

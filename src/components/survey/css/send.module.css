@@ -1,0 +1,147 @@
+/* 상단 */
+.sendbox {
+  width: 780px;
+  margin: auto;
+}
+.titlebox {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffc107;
+}
+.xbox {
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 14px 31px 11px 0;
+  padding: 15px 10px;
+  font-size: 30px;
+}
+.xbox a {
+  padding: 10px;
+  font-size: 30px;
+  line-height: 30px;
+}
+/* 인풋 */
+input:focus {
+  outline: 1px solid #ffc107;
+}
+/* 컨텐츠 */
+.contentsArea {
+  width: 100%;
+}
+.headerTxtArea {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 50px 0 70px;
+}
+.headerTxtArea span{
+  color:#333;
+}
+.subtxt {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.formArea {
+  display: flex;
+  justify-content: flex-start;
+  border-top: 5px dashed #ccc;
+  border-bottom: 5px dashed #ccc;
+  padding: 30px;
+  margin: 34px 30px 42px;
+  vertical-align: middle;
+}
+.formArea ul {
+  margin-left: 93px;
+}
+.formArea li {
+  padding-bottom: 26px;
+  font-size: 18px;
+}
+.formArea li:first-child {
+  padding-top: 42px;
+}
+.formArea li:last-child {
+  padding-bottom: 57px;
+}
+.formArea li span{
+  color:#333;
+}
+.formArea li strong{
+  padding-right: 10px;
+}
+.Alink {
+  text-decoration: underline;
+}
+.andtxt {padding: 0 5px;}
+
+/* 태그 */
+.formArea li:last-child {
+  display: flex;
+}
+.tag {
+  border: 1px solid #777;
+  border-radius: 10px;
+  padding: 3px 10px;
+  overflow: visible;
+  font-size: 12px;
+  line-height: 12px;
+  color: #777;
+  cursor: pointer;
+  margin-right: 5px;
+}
+/* 포인트 차감 안내 */
+.msgbox {
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 700;
+  margin-bottom: 52px;
+}
+
+/* 버튼 */
+.btnArea {
+  margin-right: 48px;
+  display: flex;
+  justify-content: flex-end;
+}
+.confirmBtn {
+  background-color: #ffc107;
+  border: none;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 16px 60px;
+  overflow: visible;
+  cursor: pointer;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  width: 162px;
+  height: 52px;
+  margin-bottom: 77px;
+}
+.confirmBtn > a {
+  display:block;
+  width:100%;
+  height:100%;
+  }
+.cancelBtn {
+  background-color: #fff;
+  border: 1px solid #333;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 16px 60px;
+  overflow: visible;
+  cursor: pointer;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  width: 162px;
+  height: 52px;
+  margin-bottom: 77px;
+}
